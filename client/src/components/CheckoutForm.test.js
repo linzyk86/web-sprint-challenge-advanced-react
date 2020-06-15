@@ -11,11 +11,12 @@ test("form header renders", () => {
 });
 
 test("form shows success message on submit with form details", () => {
-   const onSubmit = jest.fn();
-  const { getByTestId } = render(<CheckoutForm onSubmit={onSubmit} />);
-  //expect(successMessage).toBeInTheDocument();
+ const onSubmit = jest.fn();
+  const { getByTestId } = render(<CheckoutForm showSuccessMessage={onSubmit} />);
   fireEvent.submit(getByTestId("successMessage"));
-  expect(onSubmit).toHaveBeenCalled();  
+  expect(onSubmit).toHaveBeenCalled();
+  
+    
 });
 
 
