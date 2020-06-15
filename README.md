@@ -34,7 +34,7 @@ Using useState and ‘this’
 
 2. Describe the different phases of the component lifecycle.
 
-ComponentDidMount - includes contractor and state componentDidUpdate - takes in previous props and previous state and watches for changes componentWillUnmount - takes off event listeners
+ComponentDidMount - includes contractor and statecomponentDidUpdate - takes in previous props and previous state and watches for changescomponentWillUnmount - takes off event listeners
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
